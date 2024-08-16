@@ -5,6 +5,7 @@
 
 body {
     background-color: #18415d;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -16,22 +17,26 @@ h1{
 .btn {
     height: 150px;
     width: 150px;
-    border-radius: 20%;
+    border-radius: 50%;
     border: 5px solid black;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 .btn_container {
     display: flex;
     justify-content: center;
+
 }
 
 .start {
-    height: 35px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background-color: #be6a3f;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 50%;
+    display: inline;
+    position: relative;
+    top: 43%;
 }
 
 .start:hover {
