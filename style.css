@@ -15,8 +15,8 @@ h1{
 }
 
 .btn {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
     border: 5px solid black;
     margin: 1rem;
@@ -29,7 +29,7 @@ h1{
 }
 
 .start {
-    height: 50px;
+    height: 30px;
     width: 100px;
     background-color: #be6a3f;
     border: 2px solid black;
